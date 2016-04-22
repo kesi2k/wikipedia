@@ -1,0 +1,29 @@
+body{background:#191919;
+}
+
+#big_wrapper{text-align:center;
+
+}
+.wiki_pic{background-image:url("http://www.celebrityreputation.com/wp-content/uploads/sites/37/2015/12/Wikipedia-Logo-on-Black2.jpg");
+  background-attachment: fixed;
+  background-position: center center;
+          padding:200px;
+          background-repeat: no-repeat;
+}
+#input_id{
+  background:white;
+  color:#191919;
+  margin:-20px;  
+  border-radius:10px;
+  
+}
+
+.random_article{
+      font-size:20px;
+        color:black;
+}
+a{color:#191919; 
+}
+#Results_{
+         background: #DFE2DB;
+}
