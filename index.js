@@ -24,7 +24,7 @@ $("#input_id").bind("input", function() {
          title = data[1][i] ; 
          extract = data[2][i];
          link = data[3][i];
-         compiled = compiled + "<a href='" + link + "'target='_blank'><h1>" + title + "</h1><p>" + extract + "</p></a>"
+         compiled = compiled + "<div class = 'results_fo'><a href='" + link + "'target='_blank'><h1>" + title + "</h1><p>" + extract + "</p></a></div>"
          document.getElementById("Results_").innerHTML = compiled;
        }
       }
